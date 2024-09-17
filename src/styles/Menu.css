@@ -1,0 +1,45 @@
+.menu-style{
+    background-color: #18043A;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.size{
+    font-size: 30px;
+}
+.form-menu{
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+.content-style{
+    background-color:rgba(24, 4, 58, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+}
+.content-text-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-yellow{
+    color: #CFD307;
+}
+.bg-yellow{
+    background-color: #CFD307;
+}
+.bg-yellow:hover{
+    background-color: transparent;
+    border: 2px solid #CFD307;
+    color: #CFD307;
+}
+button{
+    color: white;
+}
+.border-none{
+    border: 0;
+}
