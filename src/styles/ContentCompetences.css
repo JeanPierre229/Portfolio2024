@@ -1,0 +1,24 @@
+.content-style-competences{
+    background-color:rgba(24, 4, 58, 0.9);
+    
+}
+.c-c{
+    padding-top: 50px;
+    padding-left: 0px;
+} 
+.competence-block {
+    position: relative;
+}
+/* .competence-img {
+    width: 50%vw;
+    height: auto;
+} */
+.competence-label {
+    position: absolute;
+    top: 05px;
+    right: 12px;
+    text-align: right;
+}
+.bg-yellow-c{
+    background-color: #CFD307;
+}

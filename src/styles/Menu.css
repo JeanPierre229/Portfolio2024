@@ -6,6 +6,13 @@
     flex-direction: column;
     justify-content: center;
 }
+#link{
+    text-decoration: none;
+}
+#linkHome, #linkCompetences, #linkProjets, #linkContact{
+    text-decoration: none;
+    color: white;
+}
 .size{
     font-size: 30px;
 }
@@ -28,6 +35,9 @@
 }
 .text-yellow{
     color: #CFD307;
+}
+.text-violet{
+    color:#18043A;
 }
 .bg-yellow{
     background-color: #CFD307;

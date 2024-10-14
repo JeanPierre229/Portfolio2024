@@ -1,0 +1,48 @@
+.w-edit{
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+}
+.icon-l {
+    position: relative;
+    width: 100px; /* Largeur de la partie horizontale */
+    height: 100px; /* Hauteur totale */
+    padding-bottom: 30px;
+}
+.icon-l::before {
+    content: '';
+    position: absolute;
+    width: 10px; /* Épaisseur de la partie verticale */
+    height: 100%; /* Hauteur égale à la div parent */
+    background-color: #CFD307;
+}
+.icon-l::after {
+    content: '';
+    position: absolute;
+    width: 100%; /* Largeur égale à la div parent */
+    height: 10px; /* Épaisseur de la partie horizontale */
+    background-color: #CFD307;
+    bottom: 0;
+}
+.icon-l-inverse {
+    position: relative;
+    width: 100px; /* Largeur de la partie horizontale */
+    height: 100px; /* Hauteur totale */
+    margin-top: 30px;
+}
+.icon-l-inverse::before {
+    content: '';
+    position: absolute;
+    width: 10px; /* Épaisseur de la partie verticale */
+    height: 100%; /* Hauteur totale */
+    background-color: #CFD307;
+    right: 0; /* Aligné à droite */
+}
+.icon-l-inverse::after {
+    content: '';
+    position: absolute;
+    width: 100%; /* Largeur totale */
+    height: 10px; /* Épaisseur de la partie horizontale */
+    background-color: #CFD307;
+    top: 0; /* Aligné en haut */
+}
